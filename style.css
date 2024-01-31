@@ -1,8 +1,8 @@
-/* Reset some basic elements */
 body, h1, p, ul, li {
     margin: 0;
     padding: 0;
 }
+
 
 body {
     font-family: 'Lato', sans-serif;
@@ -10,9 +10,27 @@ body {
     color: #292929;
 }
 
+title-text {
+    color:#fff;
+    background-color:#ffc8dd8c;
+    font-size: 3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:900;
+    margin-left:39vw;
+    position:fixed;
+    top: 120px;
+    padding:0.4rem;
+}
+
+title-text:hover {
+    background-color:#ffc8ddc1;
+}
+
+/* Page Headers */
 header-index {
     /* background-color: #ffc8dd00; */
     background: url('graphics/Unicorns_Main.svg') no-repeat center center/cover;
+    border:#fff;
     top: 0;
     left: 0;
     width: 100vw;
@@ -20,12 +38,13 @@ header-index {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index:0;
+    /* Remember to set z-index to negative !!!*/
+    z-index:-1;
     overflow: hidden;
     position:fixed;
 }
 
-/* Navbar Styles */
+/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -60,6 +79,39 @@ header-index {
     text-decoration: none;
     font-weight: 900;
     font-size:0.8rem;
+}
+
+/* Block styles (for text content) */
+.pink_block {
+    width:100%;
+    display: block;
+}
+
+.first-item {
+    padding-top: 5vw;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}
+
+.image-text-container {
+    position: relative;
+    /* padding-left:40vh; */
+    width: 50%;
+}
+
+.block-text {
+    font-size:1.3rem;
+    position: absolute;
+    top: 42%;  /* Adjust as necessary */
+    left: 50%; /* Adjust as necessary */
+    transform: translate(-50%, -50%); 
+    color: white; 
+    width: 80%;
 }
 
 /* Hero Section */
