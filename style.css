@@ -128,7 +128,7 @@ header-secondary {
 }
 
 .block-text {
-    padding-top:2vw;
+    padding-top:9vw;
     font-size:1.3rem;
     position: absolute;
     top: 42%; 
@@ -136,6 +136,7 @@ header-secondary {
     transform: translate(-50%, -50%); 
     color: white; 
     width: 80%;
+    text-indent: 25px;
 }
 
 .block-title {
