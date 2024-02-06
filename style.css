@@ -3,7 +3,6 @@ body, h1, p, ul, li {
     padding: 0;
 }
 
-
 body {
     font-family: 'Lato', sans-serif;
     line-height: 1.6;
@@ -11,7 +10,6 @@ body {
 }
 
 /* Text styles */
-
 a {
     color:#ffffff;
 }
@@ -170,13 +168,14 @@ table {
     display:table;
     font-size:1.3rem;
     position: absolute;
+    margin-top:20px;
     top: 42%; 
     left: 50%;
     transform: translate(-50%, -50%); 
     font-family: 'Lato', sans-serif;
     line-height: 1.6;
     color: white; 
-    width: 50%;
+    width: 70%;
     text-align: center;
 }
 
@@ -198,7 +197,7 @@ tbody {
     border-style:solid;
     border-width:1px;
     overflow:hidden;
-    padding:10px 5px;
+    padding:10px 1px;
     word-break:normal;
 }
 
@@ -216,11 +215,12 @@ tbody {
     background-color:#ffc9d5;
     color:#ffffff;
     font-size:100%;
-    text-align:left;vertical-align:middle
+    text-align:center;
+    vertical-align:middle
 }
 
 .tg .tg-ilgv{
-    text-align:left;
-    vertical-align:top
+    text-align:center;
+    vertical-align:top;
 }
 
