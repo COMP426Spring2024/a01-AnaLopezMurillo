@@ -20,7 +20,7 @@ title-text {
     font-size: 3rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight:900;
-    margin-left:39vw;
+    margin-left:36vw;
     position:absolute;
     top: 120px;
     padding:0.4rem;
@@ -28,6 +28,10 @@ title-text {
 
 title-text:hover {
     background-color:rgba(255, 167, 200, 0.732);
+}
+
+title-text .about {
+    margin-left: 10vw;
 }
 
 #index_title {
@@ -77,7 +81,7 @@ header-secondary {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #A2D2FF;
+    background: #a2d2ff9c;
     color: #fff;
     padding: 1rem;
     padding-left: 5vw;
@@ -168,7 +172,7 @@ table {
     display:table;
     font-size:1.3rem;
     position: absolute;
-    margin-top:20px;
+    margin-top:70px;
     top: 42%; 
     left: 50%;
     transform: translate(-50%, -50%); 
@@ -197,7 +201,7 @@ tbody {
     border-style:solid;
     border-width:1px;
     overflow:hidden;
-    padding:10px 1px;
+    padding:20px;
     word-break:normal;
 }
 
